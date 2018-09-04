@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>S_Metodami</name>
+    </assembly>
+    <members>
+        <member name="M:S_Metodami.Form1.XoY">
+            <summary>
+            Метод для рисования осей координат
+            </summary>
+        </member>
+        <member name="M:S_Metodami.Form1.Setka">
+            <summary>
+            Метод для рисования сетки
+            </summary>
+        </member>
+        <member name="M:S_Metodami.Form1.Figure">
+            <summary>
+            Метод для рисования фигуры
+            </summary>
+        </member>
+        <member name="M:S_Metodami.Form1.Vershiny(System.Single,System.Single)">
+            <summary>
+            Метод для отображения вершин
+            </summary>
+            <param name="verX"></param>
+            <param name="verY"></param>
+        </member>
+        <member name="M:S_Metodami.Form1.MoveFigure(System.Single,System.Single)">
+            <summary>
+            Метод перемещения фигуры
+            </summary>
+            <param name="offsetX"></param>
+            <param name="offsetY"></param>
+        </member>
+        <member name="M:S_Metodami.Form1.Rotate(System.Single,System.Single)">
+            <summary>
+            Поворот фигуры
+            </summary>
+        </member>
+        <member name="F:S_Metodami.Form1.components">
+            <summary>
+            Требуется переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:S_Metodami.Form1.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:S_Metodami.Form1.InitializeComponent">
+            <summary>
+            Обязательный метод для поддержки конструктора - не изменяйте
+            содержимое данного метода при помощи редактора кода.
+            </summary>
+        </member>
+        <member name="M:S_Metodami.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:S_Metodami.Properties.Resources">
+            <summary>
+              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+            </summary>
+        </member>
+        <member name="P:S_Metodami.Properties.Resources.ResourceManager">
+            <summary>
+              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+            </summary>
+        </member>
+        <member name="P:S_Metodami.Properties.Resources.Culture">
+            <summary>
+              Переопределяет свойство CurrentUICulture текущего потока для всех
+              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+            </summary>
+        </member>
+    </members>
+</doc>
